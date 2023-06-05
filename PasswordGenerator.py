@@ -13,7 +13,6 @@ special = "!@#$%^&*:<~"
 nums = "0123456789"
 
 # defining a function "do_multi_things" to help us do multiple things and decrease lines of code
-
 def do_multi_things(func, var):
     if func == "Y":
         global pwd
@@ -68,7 +67,7 @@ sleep(1.5)
 try:
     # Using the sample func to create the pword in the length that the user input
     pword = sample(pwd, length)
-    # Making the password variable to convert the pword(which is a list) to a string using the builtin function join
+    # Making the password variable to convert the pword(which is a list) to a string using the builtin join function
     password = "".join(pword)
     # Printing the password
     print("The generated password is", password)
@@ -76,6 +75,6 @@ try:
 except ValueError:
     print("You have to at least agree on something.")
 
-    ###################47##################
-    ## The end of the program, Have fun:)##
-    #######################################
+                                                        #######################################
+                                                        ## The end of the program, Have fun:)##
+                                                        #######################################
